@@ -1,6 +1,5 @@
 import './css/style.css';
 import './js/app';
-import './js/http';
 import './js/Character';
 import './js/Bowman';
 import './js/Magician';

@@ -1,6 +1,6 @@
-import Caracter from './Character';
+import Character from './Character';
 
-export default class Swordsman extends Caracter {
+export default class Swordsman extends Character {
   constructor(name) {
     super(name, 'Swordsman');
 
