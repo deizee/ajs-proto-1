@@ -1,11 +1,5 @@
 import Character from '../Character';
 
-test('Проверяем, что объект создается', () => {
-  const char = new Character('Ivan', 'Bowman');
-
-  expect(char).toBeDefined();
-});
-
 test('Проверяем, что если имя персонажа меньше 2 символов, то выпадет ошибка', () => {
   expect(() => new Character('I', 'Bowman')).toThrow();
 });
